@@ -1,6 +1,6 @@
 **For people who have the spreadsheet:**  
 Use an online converter to convert the file into a .csv file.
-Add it to your workspace with the `inflation_unemployment_GER.py` file (or add it with the absolute path.)
+Add it to the same workspace that contains the `inflation_unemployment_GER.py` file.
 
 In the main file:  
 `Line 9` Change 'Germany' to your desired country as written in the spreadsheet.
