@@ -17,7 +17,7 @@ unemployment_data = unemployment_data.rename(columns=lambda x: x.split(' ')[0] i
 inflation_data = inflation_data.rename(columns=lambda x: x.split(' ')[0] if '[YR' in x else x)
 
 #Get inflation/unemployment per year
-year_columns = [str(year) for year in range(1999, 2020)] #keep 1999 for difference between [2000-1999]
+year_columns = [str(year) for year in range(1999, 2020)] #keep 1999 for change in inflation rate from 1999 to 2000
 unemployment_rate = unemployment_data[year_columns].iloc[0].astype(float)
 inflation_rate = inflation_data[year_columns].iloc[0].astype(float)
 
