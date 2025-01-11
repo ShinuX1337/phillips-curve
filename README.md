@@ -8,7 +8,9 @@ In the main file:
 `Line 20` Adjust the years to your liking. 
 *First number needs to be one year before your desired starting point. Otherwise the change in inflation rate can't be properly calculated*  
 *Second number is not inclusive.*  
-**Example:** Desired time frame is 1974 to 1995 -> Insert (1973, 1996)
+**Example:** Desired time frame is 1974 to 1995 -> Insert (1973, 1996)  
+
+`Line 35` Replace the year with the earliest year in your selection. For the example above you would insert 1973.
 
 IDE used: Visual Studio Code  
 Python 3.12.8
